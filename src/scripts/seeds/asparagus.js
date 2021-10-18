@@ -8,7 +8,4 @@ export const createAsparagus = (type, height, output) => {
     return asparagusObject
 }
 
-let asparagusProperties = createAsparagus("Asparagus", 24, 4)
-console.log(asparagusProperties)
-
 
