@@ -10,9 +10,9 @@ export const createCorn = (type, height, output) => {
 
     {
         id: 2,
-        type: type,
-        height: height,
-        output: output
+        type: "Corn",
+        height: 24,
+        output: 4
     }]
 
     return cornArray

@@ -1,7 +1,7 @@
 let fieldsArray = []
 
-export let addPlant = () => {
-    fieldsArray.push(fieldsArray)
+export let addPlant = (seedObj) => {
+    fieldsArray.push(seedObj)
 }
 
 export let usePlants = () => {
