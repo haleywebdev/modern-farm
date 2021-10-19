@@ -1,4 +1,4 @@
-export const createPotato = (type, height, output) => {
+export const createPotato = () => {
     let potatoObject = {
         type: "Potato",
         height: 32,

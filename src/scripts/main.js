@@ -10,6 +10,14 @@ import { createWheat } from "./seeds/wheat.js"
 import { addPlant, usePlants } from "./field.js"
 import { plantSeeds } from "./tractor.js"
 
+
+const asparagusReturnObject = createAsparagus()
+const cornReturnObject = createCorn()
+const potatoReturnObject = createPotato()
+const soybeanReturnObject = createSoybean()
+const sunflowerReturnObject = createSunflower()
+const wheatReturnObject = createWheat()
+
 let seedObject = {
     type: "Green Beans",
     height: 240,

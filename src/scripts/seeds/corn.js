@@ -1,6 +1,6 @@
 
 
-export const createCorn = (type, height, output) => {
+export const createCorn = () => {
     let cornArray = [{
         id: 1,
         type: "Corn",
